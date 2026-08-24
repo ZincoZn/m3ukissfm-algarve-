@@ -117,21 +117,18 @@ def display_title(item):
     return song or artist or "KISS FM Algarve"
 
 def write_m3u(info):
-    # Obtém 'utilizador/repositorio' a partir do ambiente do GitHub Actions
     repo = os.getenv("GITHUB_REPOSITORY")
-
-    if repo:
-        epg_url = f"https://raw.githubusercontent.com/{repo}/main/{XML_FILE.name}"
-    else:
-        epg_url = XML_FILE.name  # Salvaguarda para execução local
+    epg_url = f"https://raw.githubusercontent.com/{repo}/main/{XML_FILE.name}" if repo else XML_FILE.name
 
     lines = [
         f'#EXTM3U x-tvg-url="{epg_url}"',
-        f'#EXTINF:-1 tvg-id="{CHANNEL_ID}" tvg-name="{CHANNEL_NAME}" tvg-logo="{LOGO}" radio="true" group-title="Rádios",{CHANNEL_NAME}',
+        f'#EXTVLCOPT:http-user-agent="{HEADERS["User-Agent"]}"',
+        f'#EXTINF:-1 tvg-id="{CHANNEL_ID}" tvg-name="{CHANNEL_NAME}" tvg-logo="{LOGO}" is-radio="true" group-title="Rádios",{CHANNEL_NAME}',
         STREAM,
         ""
     ]
     M3U_FILE.write_text("\n".join(lines), encoding="utf-8")
+
 
 
 
