@@ -116,16 +116,14 @@ def display_title(item):
         return f"{artist} - {song}"
     return song or artist or "KISS FM Algarve"
 
-def import os
-
 def write_m3u(info):
     # Obtém 'utilizador/repositorio' a partir do ambiente do GitHub Actions
     repo = os.getenv("GITHUB_REPOSITORY")
-    
+
     if repo:
         epg_url = f"https://raw.githubusercontent.com/{repo}/main/{XML_FILE.name}"
     else:
-        epg_url = XML_FILE.name  # Salvaguarda para quando executas o script localmente
+        epg_url = XML_FILE.name  # Salvaguarda para execução local
 
     lines = [
         f'#EXTM3U x-tvg-url="{epg_url}"',
@@ -134,6 +132,7 @@ def write_m3u(info):
         ""
     ]
     M3U_FILE.write_text("\n".join(lines), encoding="utf-8")
+
 
 
 def write_xmltv(info, history):
