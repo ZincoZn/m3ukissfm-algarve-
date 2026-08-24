@@ -116,15 +116,25 @@ def display_title(item):
         return f"{artist} - {song}"
     return song or artist or "KISS FM Algarve"
 
+def import os
+
 def write_m3u(info):
+    # Obtém 'utilizador/repositorio' a partir do ambiente do GitHub Actions
+    repo = os.getenv("GITHUB_REPOSITORY")
+    
+    if repo:
+        epg_url = f"https://raw.githubusercontent.com/{repo}/main/{XML_FILE.name}"
+    else:
+        epg_url = XML_FILE.name  # Salvaguarda para quando executas o script localmente
+
     lines = [
-        "#EXTM3U",
-        f'#EXTINF:-1 tvg-id="{CHANNEL_ID}" tvg-name="{CHANNEL_NAME}" '
-        f'tvg-logo="{LOGO}" group-title="Rádios",{CHANNEL_NAME}',
+        f'#EXTM3U x-tvg-url="{epg_url}"',
+        f'#EXTINF:-1 tvg-id="{CHANNEL_ID}" tvg-name="{CHANNEL_NAME}" tvg-logo="{LOGO}" radio="true" group-title="Rádios",{CHANNEL_NAME}',
         STREAM,
         ""
     ]
     M3U_FILE.write_text("\n".join(lines), encoding="utf-8")
+
 
 def write_xmltv(info, history):
     # Make each observed song an EPG event. The last item gets a short future window
