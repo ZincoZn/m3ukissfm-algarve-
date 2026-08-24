@@ -132,6 +132,7 @@ def write_m3u(info):
 
 
 
+
 def write_xmltv(info, history):
     # Make each observed song an EPG event. The last item gets a short future window
     # because the real end time is unknown until the next metadata change.
