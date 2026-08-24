@@ -1,4 +1,4 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/ZincoZn/m3ukissfm-algarve-/main/kissfm.xml"
 #EXTVLCOPT:http-user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:152.0) Gecko/20100101 Firefox/152.0"
-#EXTINF:-1 tvg-id="kissfm.algarve" tvg-name="KISS FM Algarve" tvg-logo="https://kissfm.pt/player/player_logo.png" radio="1" group-title="Rádios",KISS FM Algarve
+#EXTINF:-1 tvg-id="kissfm.algarve" tvg-name="KISS FM Algarve" tvg-logo="https://kissfm.pt/player/player_logo.png" radio="true" group-title="Rádios",KISS FM Algarve
 https://nl.digitalrm.pt:8024/stream
