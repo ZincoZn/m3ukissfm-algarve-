@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="KISS FM Algarve GitHub EPG" generator-info-url="https://kissfm.pt/">
+  <channel id="kissfm.algarve">
+    <display-name>KISS FM Algarve</display-name>
+    <icon src="https://kissfm.pt/player/player_logo.png"/>
+  </channel>
+</tv>
