@@ -18,7 +18,7 @@ Automação para a KISS FM Algarve.
 
 Depois de publicares o repositório, usa:
 
-`https://raw.githubusercontent.com/UTILIZADOR/REPOSITORIO/main/kissfm.m3u`
+`https://raw.githubusercontent.com/ZincoZn/m3ukissfm-algarve-/refs/heads/main/kissfm.m3u`
 
 O M3U aponta para `kissfm.xml` através de `x-tvg-url`.
 
