@@ -8,8 +8,12 @@
     <title lang="pt">Justin Bieber - Ghost</title>
     <desc lang="pt">KISS FM Algarve — 128 kbps</desc>
   </programme>
-  <programme start="20260824061250 +0000" stop="20260824061750 +0000" channel="kissfm.algarve">
+  <programme start="20260824061250 +0000" stop="20260824072514 +0000" channel="kissfm.algarve">
     <title lang="pt">Beyonce - MORNING DEW (DONK)</title>
+    <desc lang="pt">KISS FM Algarve — 128 kbps</desc>
+  </programme>
+  <programme start="20260824072514 +0000" stop="20260824073014 +0000" channel="kissfm.algarve">
+    <title lang="pt">SIENNA SPIRO - Material Lover</title>
     <desc lang="pt">KISS FM Algarve — 128 kbps</desc>
   </programme>
 </tv>
