@@ -1,3 +1,3 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="kissfm.algarve" tvg-name="KISS FM Algarve" tvg-logo="https://kissfm.pt/player/player_logo.png" group-title="Rádios",KISS FM Algarve
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/ZincoZn/m3ukissfm-algarve-/main/kissfm.xml"
+#EXTINF:-1 tvg-id="kissfm.algarve" tvg-name="KISS FM Algarve" tvg-logo="https://kissfm.pt/player/player_logo.png" radio="true" group-title="Rádios",KISS FM Algarve
 https://nl.digitalrm.pt:8024/stream
