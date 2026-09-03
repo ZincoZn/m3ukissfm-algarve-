@@ -4,15 +4,6 @@
     <display-name>KISS FM Algarve</display-name>
     <icon src="https://kissfm.pt/player/player_logo.png"/>
   </channel>
-  <programme start="20260902070000 +0000" stop="20260902110000 +0000" channel="kissfm.algarve">
-    <title lang="pt">Breakfast Show</title>
-  </programme>
-  <programme start="20260902110000 +0000" stop="20260902150000 +0000" channel="kissfm.algarve">
-    <title lang="pt">Let’s Do Lunch</title>
-  </programme>
-  <programme start="20260902150000 +0000" stop="20260902190000 +0000" channel="kissfm.algarve">
-    <title lang="pt">Drive Time</title>
-  </programme>
   <programme start="20260903070000 +0000" stop="20260903110000 +0000" channel="kissfm.algarve">
     <title lang="pt">Breakfast Show</title>
   </programme>
@@ -104,6 +95,15 @@
     <title lang="pt">Let’s Do Lunch</title>
   </programme>
   <programme start="20260915150000 +0000" stop="20260915190000 +0000" channel="kissfm.algarve">
+    <title lang="pt">Drive Time</title>
+  </programme>
+  <programme start="20260916070000 +0000" stop="20260916110000 +0000" channel="kissfm.algarve">
+    <title lang="pt">Breakfast Show</title>
+  </programme>
+  <programme start="20260916110000 +0000" stop="20260916150000 +0000" channel="kissfm.algarve">
+    <title lang="pt">Let’s Do Lunch</title>
+  </programme>
+  <programme start="20260916150000 +0000" stop="20260916190000 +0000" channel="kissfm.algarve">
     <title lang="pt">Drive Time</title>
   </programme>
 </tv>
