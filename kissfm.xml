@@ -4,9 +4,6 @@
     <display-name>KISS FM Algarve</display-name>
     <icon src="https://kissfm.pt/player/player_logo.png"/>
   </channel>
-  <programme start="20260912210000 +0000" stop="20260912230000 +0000" channel="kissfm.algarve">
-    <title lang="pt">GHR</title>
-  </programme>
   <programme start="20260913080000 +0000" stop="20260913120000 +0000" channel="kissfm.algarve">
     <title lang="pt">Solid Gold Sunday</title>
   </programme>
@@ -105,5 +102,8 @@
   </programme>
   <programme start="20260925150000 +0000" stop="20260925190000 +0000" channel="kissfm.algarve">
     <title lang="pt">Drive Time</title>
+  </programme>
+  <programme start="20260926210000 +0000" stop="20260926230000 +0000" channel="kissfm.algarve">
+    <title lang="pt">GHR</title>
   </programme>
 </tv>
